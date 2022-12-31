@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cronometro{
+    width: 40%;
+    height: 60%;
+    background-color: skyblue;
+    border: 3px solid rgba(31, 221, 164, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content : center;
+    flex-direction: column;
+}
+.tablero{
+    width : 60%;
+    height: 50%;
+    background-color: rgba(0,0,0, 0.7);
+    border: 3px solid rgba(0,0,0, 0.8);
+    border: 3px solid rgba(0,0,0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tablero p {
+    color: white;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    width: 60%;
+    height: 20%;
+    background-color: rgb(61, 145, 28);
+    border: 3px solid rgba(56, 53, 214, 0.8);
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    }
+
+   
+.botones button{
+    background-color: white;
+    padding: 10px 20px;
+    border: 3px solid rgba(72, 54, 177, 0.9);
+    color: rgb(85, 65, 173);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.botones button:hover{
+    background-color: white; 
+    color: red;
+   }
